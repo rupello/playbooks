@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+    -  name: "git name" 
+       command: git config --global user.name Rupert --replace-all
+    -  name: "git mail"
+       command: git config --global user.email rlloyd@federatedwireless.com --replace-all
+
