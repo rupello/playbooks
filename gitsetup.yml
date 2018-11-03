@@ -2,7 +2,7 @@
 - hosts: all
   tasks:
     -  command: git config --global user.name Rupert --replace-all
-    -  command: git config --global user.email rlloyd@federatedwireless.com --replace-all
+    -  command: git config --global user.email rupello@fake.com --replace-all
     -  command: git config merge.tool vimdiff
     -  command: git config merge.conflictstyle diff3
     -  command: git config mergetool.prompt false
